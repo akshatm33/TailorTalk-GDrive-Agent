@@ -161,6 +161,37 @@ Folder ID:
 
 # 6. Configure Environment Variables
 
+## Credentials Required
+
+Before running the project, configure the following credentials:
+
+* OpenAI API Key
+* Google Drive Folder ID
+* Google Service Account JSON credentials
+
+Place the Google service account credentials file inside:
+
+```bash
+backend/service_account.json
+```
+
+The `.env` file should contain:
+
+```env
+OPENAI_API_KEY=your_openai_api_key
+GOOGLE_DRIVE_FOLDER_ID=your_folder_id
+```
+
+IMPORTANT:
+
+* Do not commit real API keys to GitHub
+* Do not upload real service account credentials publicly
+* Use placeholder values when sharing the project
+
+---
+
+# 6. Configure Environment Variables
+
 Create a `.env` file inside backend folder.
 
 Example:
